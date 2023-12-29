@@ -1,0 +1,108 @@
+*{margin:0;
+    padding: 0;}
+header{
+    background-image:url(image2/new\ life.webp) ;
+    height: 400px;
+    width: 100%; ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    width: 500px;
+    height: 150px ;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+fieldset{
+    width: 50%;
+}
+
+.Title {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: aliceblue;
+}
+.home {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+button {
+    background-color: #3d83df;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+button:hover {
+    cursor: pointer;
+}
+.tunisiabestRTR {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+.tunisiabestRTR .box{
+    width: 31%;
+    height: 330px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.03);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tunisiabestRTR .box img {
+    width: 80%;
+    height: 200px;
+}
+.tunisiabestRTR .box:hover {
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.329);
+    transition: box-shadow .2s ease 0s;
+    cursor: pointer;
+}
+.tunisiabestRTR .box span {
+    color: #747474;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 17px;
+    text-transform: capitalize;
+    width: 80%;
+}
+.tunisiabestRTR .box p {
+    color: black;
+    font-family: "Roboto",Arial,sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 80%;
+    line-height: 1.4em;
+    max-height: 4em;
+    overflow: hidden;
+}
+.tunisiabestRTR .box button {
+    margin-top: 10px;
+}
+footer {
+    height: 80px;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+}
+footer span {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
